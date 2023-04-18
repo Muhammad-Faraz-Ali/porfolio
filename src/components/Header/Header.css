@@ -1,0 +1,40 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  background-color: #555050;
+}
+.navbar-user-name a {
+  color: rgb(219, 211, 211);
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.navbar-user-name a:hover,
+.navbar-user-name a:focus {
+  color: white;
+  text-decoration: underline;
+}
+.navbar-links {
+  /* background-color: yellow; */
+}
+.navbar-links ul {
+  display: flex;
+  /* color: white; */
+  /* background-color: green; */
+  list-style-type: none;
+}
+.navbar-links ul li {
+  padding: 0rem 1rem;
+}
+.navbar-links ul li a {
+  text-decoration: none;
+  color: rgb(219, 211, 211);
+}
+.navbar-links ul li a:hover,
+.navbar-links ul li a:focus {
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
